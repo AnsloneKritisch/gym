@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06BBCC;
+    --success: #18c72f;
     --light: #F0FBFC;
     --dark: #181d38;
 }
@@ -44,7 +44,7 @@
     transition: .5s;
 }
 
-.btn.btn-primary,
+.btn.btn-success,
 .btn.btn-secondary {
     color: #FFFFFF;
 }
@@ -97,7 +97,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--success);
 }
 
 @media (max-width: 991.98px) {
@@ -192,8 +192,8 @@
 
 .header-carousel .owl-nav .owl-prev:hover,
 .header-carousel .owl-nav .owl-next:hover {
-    background: var(--primary);
-    border-color: var(--primary);
+    background: var(--success);
+    border-color: var(--success);
 }
 
 .page-header {
@@ -226,7 +226,7 @@
     height: 2px;
     top: 4px;
     left: -40px;
-    background: var(--primary);
+    background: var(--success);
     z-index: -1;
 }
 
@@ -237,7 +237,7 @@
     height: 2px;
     bottom: 5px;
     left: -60px;
-    background: var(--primary);
+    background: var(--success);
     z-index: -1;
 }
 
@@ -260,7 +260,7 @@
 
 .service-item:hover {
     margin-top: -10px;
-    background: var(--primary);
+    background: var(--success);
 }
 
 .service-item * {
@@ -337,7 +337,7 @@
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text {
-    background: var(--primary) !important;
+    background: var(--success) !important;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text * {
@@ -362,8 +362,8 @@
 }
 
 .testimonial-carousel .owl-dot.active {
-    background: var(--primary);
-    border-color: var(--primary);
+    background: var(--success);
+    border-color: var(--success);
 }
 
 
@@ -383,7 +383,7 @@
 }
 
 .footer .btn.btn-social:hover {
-    color: var(--primary);
+    color: var(--success);
 }
 
 .footer .btn.btn-link {
